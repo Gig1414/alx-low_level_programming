@@ -1,20 +1,14 @@
-#include <stdlib.h> 
-#include <time.h>
 #include <stdio.h>
-
 /**
- * main - prints number from 0 to 9.
- * 
- * Return: Always 0 (success)
+ * main - Prog Entry point
+ * Return: Always 0 (Success)
 */
   int main(void)
 {
-  int i;
+  int a;
 
-   for (i = 0;  i < 10;  i++)
- {
-     printf("%d" ,  i);
-  }
+   for (a = 0; a < 10; a++)
+ printf("%d" , a);
   putchar('\n');
   return (0);
-  }
+}
