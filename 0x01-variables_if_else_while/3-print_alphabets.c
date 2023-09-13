@@ -1,20 +1,25 @@
-#include <stdlib.h> 
-#include <time.h>
 #include <stdio.h>
-
 /**
- * main - prints the alphabet. 
- * 
- * Return: Always 0 (Success)
+ * main - Entry point
+ * Return: Always 0 (success)
 */
-  int main(void)
+
+int main(void)
 {
-  char alp[52] = "abcdefghijklmnopqrstuvwxyz";
- int i;
- for (i = 0; i < 52; i++)
- {
-            putchar(alp[i]);
-  }
+  char c;
+  char d;
+  c = 'a';
+  d = 'A';
+  while
+        (c <= 'z') {
+          putchar(c);
+          c++;
+        }
+  while
+    (d <= 'z') {
+      putchar(d);
+      d++;
+    }
   putchar('\n');
   return (0);
 }
